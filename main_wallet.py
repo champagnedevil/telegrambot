@@ -1,4 +1,3 @@
-source .env
 import requests
 import time
 import copy
