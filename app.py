@@ -1,19 +1,13 @@
 # -*- coding:utf-8 -*-?
-BOT_TOKEN=1983920370:AAHPgylU1xwhMmgEOhAUwLnXOw-XQRJqrJQ
-WEBHOOK_URL=https://obmenbitcoinbot.herokuapp.com/
-PRIVATE_KEY=29c29c6e95cea262a7e9b04c9e355a7d61896c96f6211ff16498a3e1e4656880
-ADMIN=1833198673
-CARD_NUMBER="5469 1700 5466 1083"
-
 import os
 import flask
 import telebot
 import logging
 from bot import Bot
 
-WEBHOOK_URL = os.environ["WEBHOOK_URL"]+"/bot/"+os.environ["BOT_TOKEN"]
-WEBHOOK_PATH = "/"+os.environ["BOT_TOKEN"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+WEBHOOK_URL = os.environ[https://"obmenbitcoinbot.herokuapp.com"]+"/bot/"+os.environ["1983920370:AAHPgylU1xwhMmgEOhAUwLnXOw-XQRJqrJQ"]
+WEBHOOK_PATH = "/"+os.environ["1983920370:AAHPgylU1xwhMmgEOhAUwLnXOw-XQRJqrJQ"]
+BOT_TOKEN = os.environ["1983920370:AAHPgylU1xwhMmgEOhAUwLnXOw-XQRJqrJQ"]
 
 app = flask.Flask(__name__)
 app.comission = 32000
